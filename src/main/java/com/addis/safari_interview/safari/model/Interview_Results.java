@@ -18,9 +18,9 @@ public class Interview_Results {
 	private String candidatName;
 
 	/*set min and max values in here. */
-	@Max(value=100)
+	/*@Max(value=100)
+	@Min(value = 0)*/
 	@NotNull
-	@Min(value = 0)
 	private double candidateScore;
 	private boolean isSuccessful;
 
